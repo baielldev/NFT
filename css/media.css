@@ -1,83 +1,145 @@
-@media (max-width: 1160px) {
+@media (max-width: 1183px) {
+  #header .container {
+    padding-inline: 40px;
+  }
+
   .container {
-    padding-inline: 80px;
+    padding-inline: 100px;
+  }
+
+  .main-box {
+    gap: 70px;
   }
 }
 
-@media (max-width: 1072px) {
+@media (max-width: 1075px) {
+  .container {
+    padding-inline: 70px;
+  }
+
+  .main img {
+    max-width: 480px;
+  }
+}
+
+@media (max-width: 983px) {
   #header .container {
     padding-inline: 35px;
   }
+
   .container {
     padding-inline: 50px;
   }
 
   .main img {
-    max-width: 470px;
+    max-width: 440px;
   }
-  .main-text {
-    gap: 19px;
-  }
+
   .main-box {
-    display: flex;
-    gap: 80px;
+    gap: 50px;
   }
 }
 
-@media (max-width: 917px) {
-  #header .container {
-    padding-inline: 20px;
-  }
+@media (max-width: 849px) {
   .container {
-    padding-inline: 35px;
+    padding-inline: 30px;
   }
 
   .main img {
     max-width: 420px;
   }
+}
 
-  .burger-menu {
-    display: flex;
-  }
+@media (max-width: 781px) {
   nav {
     display: none;
   }
 
-  .main-text {
-    gap: 14px;
-  }
-
-  .main-box {
+  .burger-menu {
     display: flex;
-    gap: 60px;
   }
-}
 
-@media (max-width: 827px) {
   #header .container {
-    padding-inline: 10px;
+    padding-inline: 30px;
   }
+
   .container {
-    padding-inline: 25px;
-  }
-
-  .main-text {
-    gap: 12px;
+    padding-inline: 20px;
   }
 
   .main-box {
-    display: flex;
-    gap: 55px;
-  }
-}
-
-@media (max-width: 697px) {
-  .main-box {
-    display: flex;
-    gap: 50px;
+    gap: 40px;
   }
 
   .main img {
-    max-width: 390px;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 740px) {
+  .main img {
+    max-width: 370px;
+  }
+
+  .main-box {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 660px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-text {
+    max-width: 240px;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 411px) {
+  .header img {
+    max-width: 180px;
+  }
+
+  .main img {
+    max-width: 280px;
+  }
+
+  .main-text h1 {
+    max-width: 400px;
+  }
+
+  #plan {
+    padding-block: 20px;
+  }
+
+  .plan-title {
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+  .plan {
+    flex-direction: column;
+  }
+  .work-title button {
+    display: none;
+  }
+  .work {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 321px) {
+  .box-vector img {
+    max-width: 85px;
+  }
+
+  .box-vector p {
+    padding: 27px 17px;
+  }
+
+  .work {
+    flex-direction: column;
   }
 }
