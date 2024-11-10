@@ -138,7 +138,11 @@ nav button {
   max-width: 500px;
 }
 
-#plan {
+.main-adapt {
+  display: none;
+}
+
+.main #plan {
   padding-block: 50px;
 }
 
